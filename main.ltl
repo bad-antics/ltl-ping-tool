@@ -1,0 +1,15 @@
+// ltl-ping-tool/main.ltl
+//
+// ICMP echo-request pinger with RTT histogram output.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-ping-tool v0.1.0")
+    io::println("ICMP echo-request pinger with RTT histogram output.")
+    0
+}
