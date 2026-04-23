@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_ping_tool
+
+import std::io
+use ltl_ping_tool as lib
+
+fn main() {
+    io::println("ltl_ping_tool demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
